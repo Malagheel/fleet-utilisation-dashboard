@@ -1,27 +1,51 @@
-# Fleet & Vehicle Utilisation Dashboard
+#  Fleet & Vehicle Utilisation Dashboard
 
-##  Project Overview
+##  Overview
 
-This project simulates a Power BI dashboard designed for fleet operations monitoring, using synthetic data modeled after a Dynamics 365 environment. It is built for business stakeholders to track performance, cost, and utilisation metrics across a vehicle fleet.
+This project simulates a Power BI dashboard for monitoring operational performance of a mid-sized vehicle fleet. Built using synthetic data modeled on Dynamics 365, the dashboard helps decision-makers understand utilisation trends, cost efficiency, fuel performance, and maintenance breakdowns.
+
+This is designed to showcase my capabilities in business analysis, data modeling, dashboard design, and stakeholder-aligned reporting — particularly for operations and finance roles in digitally transforming environments.
+
+---
 
 ##  Business Users
 
-1. **Fleet Operations Manager** – Oversees vehicle scheduling, maintenance, and daily fleet performance.
-2. **Chief Financial Officer (CFO)** – Focused on operational costs, ROI, and strategic fleet investment decisions.
-3. **Maintenance Supervisor** – Tracks service schedules, repair frequency, and operational downtime.
+| Role                  | Purpose                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| Fleet Operations Manager | Monitor day-to-day utilisation, downtime, and maintenance efficiency |
+| CFO / Finance Exec     | Track cost per km, operational expenses, and strategic planning KPIs   |
+| Maintenance Supervisor | Identify maintenance patterns and reduce unscheduled repair hours     |
 
-##  Key Metrics
+---
 
-- **Vehicle Utilisation Rate (%)**
-- **Cost per Kilometer**
-- **Total Distance Travelled per Vehicle**
-- **Scheduled vs Unscheduled Maintenance Ratio**
-- **Fuel Efficiency (km/litre)**
-- **Downtime per Vehicle (hours/month)**
-- **Fleet-Wide Operational Cost (monthly)**
+##  Key Metrics Tracked
 
-##  Tools Used
+- **Vehicle Utilisation (km driven per month)**
+- **Cost per Kilometer** (Fuel + Other Costs ÷ Distance)
+- **Average Fuel Efficiency (km/litre)** by Vehicle Type
+- **Scheduled vs Unscheduled Maintenance Hours**
+- **Downtime hours** per vehicle
 
-- Power BI
-- Microsoft Excel
-- SQL (for transformation)
+---
+
+##  Dashboard Preview
+
+###  Visuals Included:
+- **Vehicle Utilisation by VehicleID**
+- **Cost per KM trendline** across multiple months
+- **Fuel Efficiency Comparison** by Vehicle Type
+- **Maintenance Breakdown (Stacked Chart)** per Vehicle
+- **Dynamic Month Filter (Slicer)** for interactive analysis
+
+###  Files
+- [ View the Power BI report (.pbix)](./reports/fleet-utilisation-dashboard.pbix)
+- [ Dashboard Screenshot](./reports/screenshots/dashboard-preview.png)
+
+---
+
+##  Tools & Technologies
+
+- **Power BI** – Data modeling, DAX, and dashboard design
+- **Microsoft Excel** – Synthetic data generation
+- **DAX** – Custom KPIs for cost analysis and ratios
+- **GitHub** – Project versioning and documentation
